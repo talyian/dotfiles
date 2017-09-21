@@ -1,0 +1,215 @@
+execve("/usr/bin/tmux", ["tmux"], [/* 16 vars */]) = 0
+brk(NULL)                               = 0x7fffb968a000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fecb7f00000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=49923, ...}) = 0
+mmap(NULL, 49923, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fecb7ef3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10656, ...}) = 0
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb79f0000
+mprotect(0x7fecb79f2000, 2093056, PROT_NONE) = 0
+mmap(0x7fecb7bf1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fecb7bf1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\310\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=167240, ...}) = 0
+mmap(NULL, 2264256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb77c0000
+mprotect(0x7fecb77e5000, 2093056, PROT_NONE) = 0
+mmap(0x7fecb79e4000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7fecb79e4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libevent-2.0.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\233\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=285072, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fecb7ef0000
+mmap(NULL, 2382056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb7570000
+mprotect(0x7fecb75b4000, 2097152, PROT_NONE) = 0
+mmap(0x7fecb77b4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x44000) = 0x7fecb77b4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libutempter.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10160, ...}) = 0
+mmap(NULL, 2105376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb7360000
+mprotect(0x7fecb7361000, 2097152, PROT_NONE) = 0
+mmap(0x7fecb7561000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fecb7561000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101200, ...}) = 0
+mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb7140000
+mprotect(0x7fecb7157000, 2097152, PROT_NONE) = 0
+mmap(0x7fecb7357000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fecb7357000
+mmap(0x7fecb7359000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fecb7359000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fecb7ee0000
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb6d70000
+mprotect(0x7fecb6f30000, 2097152, PROT_NONE) = 0
+mmap(0x7fecb7130000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7fecb7130000
+mmap(0x7fecb7136000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fecb7136000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fecb6b50000
+mprotect(0x7fecb6b68000, 2093056, PROT_NONE) = 0
+mmap(0x7fecb6d67000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fecb6d67000
+mmap(0x7fecb6d69000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fecb6d69000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fecb7ed0000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fecb7ec0000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fecb7eb0000
+arch_prctl(ARCH_SET_FS, 0x7fecb7ec0700) = 0
+mprotect(0x7fecb7130000, 16384, PROT_READ) = 0
+mprotect(0x7fecb6d67000, 4096, PROT_READ) = 0
+mprotect(0x7fecb7357000, 4096, PROT_READ) = 0
+mprotect(0x7fecb7561000, 4096, PROT_READ) = 0
+mprotect(0x7fecb77b4000, 4096, PROT_READ) = 0
+mprotect(0x7fecb79e4000, 16384, PROT_READ) = 0
+mprotect(0x7fecb7bf1000, 4096, PROT_READ) = 0
+mprotect(0x7fecb8272000, 36864, PROT_READ) = 0
+mprotect(0x7fecb7e25000, 4096, PROT_READ) = 0
+munmap(0x7fecb7ef3000, 49923)           = 0
+set_tid_address(0x7fecb7ec09d0)         = 663
+set_robust_list(0x7fecb7ec09e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7fecb6b55b50, [], SA_RESTORER|SA_SIGINFO, 0x7fecb6b61390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fecb6b55be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fecb6b61390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=8192*1024}) = 0
+brk(NULL)                               = 0x7fffb968a000
+brk(0x7fffb96ab000)                     = 0x7fffb96ab000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fecb6878000
+close(3)                                = 0
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1072, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1072, ...}) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\2\0\0\0\0"..., 4096) = 1072
+lseek(3, -684, SEEK_CUR)                = 388
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\2\0\0\0\0"..., 4096) = 684
+close(3)                                = 0
+getcwd("/mnt/c/Users/Jimmy/git/dotfiles", 4096) = 32
+access("/bin/bash", X_OK)               = 0
+getuid()                                = 1000
+mkdir("/tmp//tmux-1000", 0700)          = -1 EEXIST (File exists)
+lstat("/tmp//tmux-1000", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+lstat("/tmp/tmux-1000", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+clock_gettime(CLOCK_MONOTONIC, {3462, 43843000}) = 0
+clock_gettime(CLOCK_MONOTONIC, {3462, 43933000}) = 0
+gettimeofday({1506017377, 166283}, NULL) = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+socketpair(PF_LOCAL, SOCK_STREAM, 0, [3, 4]) = 0
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(4, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {0x7fecb7592d50, ~[RTMIN RT_1], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, {SIG_DFL, [], SA_RESTORER, 0x7f22646254b0}, 8) = 0
+rt_sigaction(SIGCHLD, {0x7fecb7592d50, ~[RTMIN RT_1], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f4d52c654b0}, 8) = 0
+rt_sigaction(SIGCONT, {0x7fecb7592d50, ~[RTMIN RT_1], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7fecb7592d50, ~[RTMIN RT_1], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, {SIG_DFL, [], SA_RESTORER, 0x7f22646254b0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x7fecb7592d50, ~[RTMIN RT_1], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, {SIG_DFL, [], SA_RESTORER, 0x7f22646254b0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7fecb7592d50, ~[RTMIN RT_1], SA_RESTORER|SA_RESTART, 0x7fecb6da54b0}, {SIG_DFL, [], SA_RESTORER, 0x7f22646254b0}, 8) = 0
+socket(PF_LOCAL, SOCK_STREAM, 0)        = 5
+connect(5, {sa_family=AF_LOCAL, sun_path="/tmp/tmux-1000/default"}, 110) = 0
+fcntl(5, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+open(".", O_RDONLY)                     = 6
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+readlink("/proc/self/fd/0", "/dev/tty1", 4095) = 9
+stat("/dev/tty1", {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+fcntl(0, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(0, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+dup(0)                                  = 7
+clock_gettime(CLOCK_MONOTONIC, {3462, 47753000}) = 0
+gettimeofday({1506017377, 170110}, NULL) = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN|POLLOUT}], 2, -1) = 1 ([{fd=5, revents=POLLOUT}])
+clock_gettime(CLOCK_MONOTONIC, {3462, 48116000}) = 0
+gettimeofday({1506017377, 170466}, NULL) = 0
+sendmsg(5, {msg_name(0)=NULL, msg_iov(4)=[{"d\0\0\0\24\0\0\0\10\0\0\0\377\377\377\377\0\0\1\0", 20}, {"e\0\0\0\37\0\0\0\10\0\0\0\377\377\377\377xterm-256color\0", 31}, {"f\0\0\0\32\0\0\0\10\0\0\0\377\377\377\377/dev/tty1\0", 26}, {"g\0\0\0\20\0\1\0\10\0\0\0\377\377\377\377", 16}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [6]}], msg_flags=0}, 0) = 93
+close(6)                                = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN|POLLOUT}], 2, -1) = 1 ([{fd=5, revents=POLLOUT}])
+clock_gettime(CLOCK_MONOTONIC, {3462, 48830000}) = 0
+gettimeofday({1506017377, 171198}, NULL) = 0
+sendmsg(5, {msg_name(0)=NULL, msg_iov(1)=[{"h\0\0\0\20\0\1\0\10\0\0\0\377\377\377\377", 16}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [7]}], msg_flags=0}, 0) = 16
+close(7)                                = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN|POLLOUT}], 2, -1) = 1 ([{fd=5, revents=POLLOUT}])
+clock_gettime(CLOCK_MONOTONIC, {3462, 49429000}) = 0
+gettimeofday({1506017377, 171781}, NULL) = 0
+sendmsg(5, {msg_name(0)=NULL, msg_iov(20)=[{"k\0\0\0\24\0\0\0\10\0\0\0\377\377\377\377\227\2\0\0", 20}, {"i\0\0\0 \0\0\0\10\0\0\0\377\377\377\377SHELL=/bin/bash\0", 32}, {"i\0\0\0$\0\0\0\10\0\0\0\377\377\377\377TERM=xterm-256co"..., 36}, {"i\0\0\0\33\0\0\0\10\0\0\0\377\377\377\377USER=jimmy\0", 27}, {"i\0\0\0\36\0\0\0\10\0\0\0\377\377\377\377NAME=GALAXIAN\0", 30}, {"i\0\0\0\230\5\0\0\10\0\0\0\377\377\377\377LS_COLORS=rs=0:d"..., 1432}, {"i\0\0\0 \0\0\0\10\0\0\0\377\377\377\377HOSTTYPE=x86_64\0", 32}, {"i\0\0\0\220\5\0\0\10\0\0\0\377\377\377\377PATH=/usr/local/"..., 1424}, {"i\0\0\0-\0\0\0\10\0\0\0\377\377\377\377PWD=/home/jimmy/"..., 45}, {"i\0\0\0!\0\0\0\10\0\0\0\377\377\377\377LANG=en_US.UTF-8"..., 33}, {"i\0\0\0\30\0\0\0\10\0\0\0\377\377\377\377SHLVL=1\0", 24}, {"i\0\0\0!\0\0\0\10\0\0\0\377\377\377\377HOME=/home/jimmy"..., 33}, {"i\0\0\0\36\0\0\0\10\0\0\0\377\377\377\377LOGNAME=jimmy\0", 30}, {"i\0\0\0000\0\0\0\10\0\0\0\377\377\377\377LESSOPEN=| /usr/"..., 48}, {"i\0\0\0002\0\0\0\10\0\0\0\377\377\377\377LESSCLOSE=/usr/b"..., 50}, {"i\0\0\0\"\0\0\0\10\0\0\0\377\377\377\377_=/usr/bin/strac"..., 34}, {"i\0\0\0'\0\0\0\10\0\0\0\377\377\377\377OLDPWD=/home/jim"..., 39}, {"i\0\0\0 \0\0\0\10\0\0\0\377\377\377\377EVENT_NOEPOLL=1\0", 32}, {"j\0\0\0\20\0\0\0\10\0\0\0\377\377\377\377", 16}, {"\310\0\0\0\24\0\0\0\10\0\0\0\377\377\377\377\0\0\0\0", 20}], msg_controllen=0, msg_flags=0}, 0) = 3437
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+clock_gettime(CLOCK_MONOTONIC, {3462, 70578000}) = 0
+gettimeofday({1506017377, 193027}, NULL) = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 6
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 7
+close(6)                                = 0
+close(7)                                = 0
+recvmsg(5, {msg_name(0)=NULL, msg_iov(1)=[{"\317\0\0\0\20\0\0\0\10\0\0\0\377\377\377\377", 65535}], msg_controllen=0, msg_flags=0}, 0) = 16
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN|POLLOUT}], 2, -1) = 1 ([{fd=5, revents=POLLOUT}])
+clock_gettime(CLOCK_MONOTONIC, {3462, 72496000}) = 0
+gettimeofday({1506017377, 194929}, NULL) = 0
+sendmsg(5, {msg_name(0)=NULL, msg_iov(1)=[{"\320\0\0\0\20\0\0\0\10\0\0\0\377\377\377\377", 16}], msg_controllen=0, msg_flags=0}, 0) = 16
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+clock_gettime(CLOCK_MONOTONIC, {3463, 244582000}) = 0
+gettimeofday({1506017378, 367025}, NULL) = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 6
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 7
+close(6)                                = 0
+close(7)                                = 0
+recvmsg(5, {msg_name(0)=NULL, msg_iov(1)=[{"\313\0\0\0\24\0\0\0\10\0\0\0\377\377\377\377\0\0\0\0", 65535}], msg_controllen=0, msg_flags=0}, 0) = 20
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN|POLLOUT}], 2, -1) = 1 ([{fd=5, revents=POLLOUT}])
+clock_gettime(CLOCK_MONOTONIC, {3463, 247201000}) = 0
+gettimeofday({1506017378, 369551}, NULL) = 0
+sendmsg(5, {msg_name(0)=NULL, msg_iov(1)=[{"\315\0\0\0\20\0\0\0\10\0\0\0\377\377\377\377", 16}], msg_controllen=0, msg_flags=0}, 0) = 16
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+clock_gettime(CLOCK_MONOTONIC, {3463, 248551000}) = 0
+gettimeofday({1506017378, 370905}, NULL) = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 6
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 7
+close(6)                                = 0
+close(7)                                = 0
+recvmsg(5, {msg_name(0)=NULL, msg_iov(1)=[{"\314\0\0\0\20\0\0\0\10\0\0\0\377\377\377\377", 65535}], msg_controllen=0, msg_flags=0}, 0) = 16
+poll([{fd=4, events=POLLIN}], 1, 0)     = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {3463, 249463000}) = 0
+gettimeofday({1506017378, 371829}, NULL) = 0
+fstat(1, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "[exited]\n", 9)               = 9
+getppid()                               = 661
+fcntl(0, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(0, F_SETFL, O_RDWR)               = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
