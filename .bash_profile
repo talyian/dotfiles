@@ -1,0 +1,1 @@
+/mnt/c/Users/Jimmy/git/dotfiles/bash/.bash_profile
