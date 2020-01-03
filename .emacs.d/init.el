@@ -14,11 +14,11 @@
  ;; If there is more than one, they won't work right.
  '(package-archives
    (quote
-    (("gnu" . "https://elpa.gnu.org/packages/")
-     ("melpa" . "https://melpa.org/packages/"))))
+	(("gnu" . "https://elpa.gnu.org/packages/")
+	 ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (flycheck company-lsp counsel evil evil-magit evil-org general lsp-mode lsp-ui magit projectile swiper))))
+	(flx swiper-helm ivy flycheck company-lsp counsel evil evil-magit evil-org general lsp-mode lsp-ui magit projectile swiper))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

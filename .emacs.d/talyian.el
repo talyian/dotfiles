@@ -4,6 +4,16 @@
 (setq-default tab-width 4)
 (setq-default c-offset-width 2)
 
+;; completions
+(ivy-mode)
+(setq ivy-use-virtual-buffers t)
+(global-set-key "\C-s" 'swiper)
+(global-set-key (kbd "M-x") 'counsel-M-x)
+(setq ivy-re-builders-alist
+   '((swiper . ivy--regex-plus)
+	 (t      . ivy--regex-fuzzy)))
+
+;; evil-mode leader key setup
 (general-evil-setup t)
 (general-evil-define-key 'normal 'global
   :prefix "SPC"
@@ -17,7 +27,6 @@
   :prefix "g"
   "o" 'evil-jump-backward
   "i" 'evil-jump-forward)
-
 
 ;; clang settings
 (defvar talyian/clangd-exe (executable-find "clangd-8"))
