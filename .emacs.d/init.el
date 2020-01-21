@@ -13,6 +13,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(org-agenda-files (quote ("/mnt/c/Users/49422/git/notebook/logs.org")))
+ '(lsp-enable-indentation nil)
+ '(lsp-enable-on-type-formatting nil)
+
  '(org-babel-load-languages (quote ((emacs-lisp . t) (shell . t) (C . t))))
  '(package-archives
    (quote
@@ -20,7 +23,24 @@
 	 ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-	(flx swiper-helm flycheck company-lsp counsel evil evil-magit evil-org general lsp-mode lsp-ui magit projectile swiper))))
+	(	 
+	 	 
+	 company-lsp
+	 counsel
+	 evil
+	 evil-magit
+	 evil-org
+	 flx
+	 flycheck
+	 general
+	 lsp-mode
+	 lsp-ui
+	 magit
+	 projectile
+	 swiper
+	 swiper-helm
+
+	 ))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
