@@ -1,8 +1,10 @@
 ;; General Editor setup 
 (evil-mode)
 (tool-bar-mode -1)
+(menu-bar-mode -1)
 (setq-default tab-width 4)
 (setq-default c-offset-width 2)
+(require 'evil-magit)
 
 ;; completions
 (ivy-mode)
@@ -22,6 +24,7 @@
   "ff" 'counsel-find-file
   "pf" 'projectile-find-file
   "po" 'projectile-find-other-file
+  "pc" 'recompile
   )
 (general-evil-define-key 'normal 'global
   :prefix "g"
